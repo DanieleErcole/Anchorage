@@ -183,7 +183,7 @@ pub struct TrackInfo {
     pub identifier: String,
     pub is_seekable: bool,
     pub author: String,
-    pub length: usize,
+    pub length: u32,
     pub is_stream: bool,
     pub position: usize,
     pub title: String,
